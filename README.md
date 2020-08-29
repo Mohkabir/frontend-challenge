@@ -1,4 +1,5 @@
-view solution @
+view solution @https://mohkabir.github.io/frontend-challenge/.
+
 # Frontend Mentor - Article preview component
 
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
