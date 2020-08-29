@@ -1,0 +1,136 @@
+body{
+  background-color:#ECF1F7 ;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0em;
+  padding: 0em;
+  font-size: 0.6125em;
+}
+*{
+  box-sizing: border-box;
+}
+.image{
+  width: 100%;
+}
+.container{
+  width: 80%;
+  margin: 1em auto;
+  background-color: #fff;
+  border-radius: 30px;
+  .mini_container{
+    padding: 1em;
+    h2{
+      font-size:0.7125em ;
+      margin-bottom: 0.4em;
+    }
+    .contact{
+      display: flex;
+      margin-top: 2em;
+      .avatar_michelle{
+        width: 20%;
+        img{
+          border-radius: 80px;
+        }
+      }
+      .profile{
+        width: 50%;
+        margin-left: 1em;
+    
+      }
+      .icon_share{
+        width: 10%;
+        margin-left: 2em;
+        text-align: center;
+        .icon_back{
+        border-radius: 80px;
+        background-color:#ECF1F7 ;
+        padding: 0.3em;
+        }
+      }
+    }
+  }
+  .contact_share{
+    background-color: #49556B;
+    color: #fff;
+    display: flex;
+    padding: 0.8em;
+    justify-content: space-evenly;
+    display: none;
+    .icon_back{
+      border-radius: 80px;
+      background-color:#ECF1F7 ;
+      padding: 0em 0.2em;
+      }
+  }
+}
+@media screen and(min-width:675px){
+  body{
+    padding: 1em;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0em;
+    padding: 0em;
+    font-size: 1em;
+  }
+  .container{
+    padding: 0.1em;
+    display: flex;
+    background-color: #fff;
+    border-radius: 0px;
+    width: 70%;
+    img{
+      width: 40%;
+    }
+    .mini_container{
+      padding: 2em;
+      h2{
+        font-size:1.2em ;
+        margin-bottom: 0.4em;
+      }
+      .contact{
+        display: flex;
+        margin-top: 2em;
+        .avatar_michelle{
+          width: 40%;
+          img{
+            border-radius: 50px;
+          }
+        }
+        .profile{
+          width: 60%;
+          margin-left: -3em;
+        }
+        .icon_share{
+          width: 10%;
+          .icon_back{
+          border-radius: 60px;
+          background-color:#ECF1F7 ;
+          padding: 0.8em 0em;
+          }
+        }
+      }
+    }
+    .contact_share{
+      position: absolute;
+      width: 16em;
+      top: 320px;
+      left: 800px;
+      background-color: #49556B;
+      color: #fff;
+      border-radius: 30px;
+      display: flex;
+      padding: 0.8em;
+      justify-content: space-evenly;
+      display: none;
+      p{
+        margin-right: 1em;
+      }
+      div{
+        width: 20%;
+      }
+      .icon_back{
+        background-color:#49556B;
+        }
+    }
+  }
+}
